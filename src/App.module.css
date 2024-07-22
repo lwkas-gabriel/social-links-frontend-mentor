@@ -1,0 +1,31 @@
+main{
+    max-width: 385px;
+    max-height: 610px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    border-radius: 12px;
+    background-color: #141414;
+}
+
+img{
+    border-radius: 999px;
+    height: 88px;
+    width: 88px;
+}
+
+p{
+    color: #C4F82A;
+}
+
+section{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 16px;
+}
