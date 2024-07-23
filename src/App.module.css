@@ -1,12 +1,16 @@
 main{
-    max-width: 385px;
-    max-height: 610px;
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 24px;
     border-radius: 12px;
+    background-color: #141414;
+    padding: 20px 40px 20px 40px;
+}
+
+h1, p, span, section{
     background-color: #141414;
 }
 
@@ -20,12 +24,26 @@ p{
     color: #C4F82A;
 }
 
+span{
+    font-size: 14px;
+}
+
 section{
-    width: inherit;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     align-content: center;
     gap: 16px;
+}
+
+@media (max-width: 323px){
+    h1{
+       font-size: 26px;
+    }
+
+    p, span, section{
+        font-size: 12px;
+    }
 }
