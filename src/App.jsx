@@ -3,7 +3,6 @@ import { operations } from "./constants/operationConstants";
 import image from "./assets/avatar-jessica.jpeg";
 
 import './App.module.css'
-import React from "react";
 
 export function App() {
   return (
