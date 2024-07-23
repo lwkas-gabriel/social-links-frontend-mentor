@@ -1,4 +1,4 @@
-main{
+.container{
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -10,25 +10,27 @@ main{
     padding: 20px 40px 20px 40px;
 }
 
+.name{}
+
 h1, p, span, section{
     background-color: #141414;
 }
 
-img{
+.avatar{
     border-radius: 999px;
     height: 88px;
     width: 88px;
 }
 
-p{
+.description{
     color: #C4F82A;
 }
 
-span{
+.habits{
     font-size: 14px;
 }
 
-section{
+.buttonContainer{
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -39,7 +41,7 @@ section{
 }
 
 @media (max-width: 323px){
-    h1{
+    .name{
        font-size: 26px;
     }
 
